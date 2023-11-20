@@ -15,9 +15,9 @@ public class App {
                 3-Verificar média do aluno
                 4-Sair
                 """;
-                
+
 System.out.println("Bem-vindo(a) ao sistema de gestão escolar");
-        while (menu==true) {
+        while (menu) {
             System.out.println(texto);
             opc=ler.nextInt();
             if (opc == 1) {
