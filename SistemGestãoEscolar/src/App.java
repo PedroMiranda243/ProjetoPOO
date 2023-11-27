@@ -42,7 +42,7 @@ public class App {
 
             }
             if (opc == 2) {
-
+                //TODO verifica média
                 calcula(m);
                 calcula(l);
 
