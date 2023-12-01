@@ -8,7 +8,7 @@ public class App {
         Aluno a = new Aluno();
         CursoLiteratura l = new CursoLiteratura();
         CursoMatematica m = new CursoMatematica();
-        boolean menu = true;
+        boolean menu = false;
         int opc = 0;
 
         String texto = """
@@ -35,8 +35,8 @@ public class App {
 
         System.out.println("Bem-vindo(a) ao sistema de gestão escolar");
       while (!menu) {
-            try {
-            System.out.println(texto);
+          try {
+                System.out.println(texto);
                 opc = ler.nextInt();
                 if (opc == 1) {
                     // TODO consultar alunos matrículados
