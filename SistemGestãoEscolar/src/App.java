@@ -5,7 +5,6 @@ public class App {
         Scanner ler = new Scanner(System.in);
         Scanner apresenta = new Scanner(System.in);
         
-        Aluno a = new Aluno();
         CursoLiteratura l = new CursoLiteratura();
         CursoMatematica m = new CursoMatematica();
         boolean menu = false;
@@ -39,14 +38,12 @@ public class App {
                 System.out.println(texto);
                 opc = ler.nextInt();
                 if (opc == 1) {
-                    // TODO consultar alunos matrículados
                         apresentar(m);
                         System.out.println("Aperte qualquer tecla para continuar apresentação");
                         apresenta.nextLine();
                         apresentar(l);
                 }
                 if (opc == 2) {
-                    //TODO verifica média
                     calcula(m);
                     System.out.println("Aperte qualquer tecla para continuar verificação");
                     apresenta.nextLine();
